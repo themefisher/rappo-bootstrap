@@ -1,0 +1,60 @@
+
+
+/*--------------------------
+PAGE BANNER
+--------------------------*/
+
+.page-banner-area{
+    padding: 180px 0px;
+}
+.page-contact{
+    position: relative;
+    padding: 180px 0px;
+    background: url("../images/banner/p-6.jpg")fixed 50% 50% no-repeat;
+    -webkit-background-size: cover;
+    background-size:cover ;
+}
+.page-service{
+    position: relative;
+    padding: 180px 0px;
+    background: url("../images/banner/service.jpg")fixed 50% 50% no-repeat;
+    -webkit-background-size: cover;
+    background-size:cover ;
+}
+
+.page-about{
+    position: relative;
+    padding: 180px 0px;
+    background: url("../images/banner/about.jpg")fixed 50% 50% no-repeat;
+    -webkit-background-size: cover;
+    background-size:cover ;
+}
+
+.page-pricing{
+    position: relative;
+    padding: 180px 0px;
+    background: url("../images/banner/img2.jpg")fixed 50% 50% no-repeat;
+    -webkit-background-size: cover;
+    background-size:cover ;
+}
+
+.page-project{
+    position: relative;
+    padding: 180px 0px;
+    background: url("../images/banner/p-4.jpg")fixed 50% 50% no-repeat;
+    -webkit-background-size: cover;
+    background-size:cover ;
+}
+
+
+.page-banner-content h1{
+    color: $light;
+}
+.page-banner-content p{
+    color: $border-color;
+}
+
+.form-control{
+    border-radius: 0px;
+    height: 45px;
+}

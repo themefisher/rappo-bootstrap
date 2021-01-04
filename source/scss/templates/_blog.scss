@@ -1,0 +1,56 @@
+
+
+/*----------------------
+ BLOG SECTION
+-----------------------*/
+.blog-box {
+    position: relative;
+
+    .blog-img-box img {
+        border-radius: 5px;
+        box-shadow: 0 7px 12px rgba(0, 0, 0, 0.08);
+    }
+}
+
+
+
+
+.single-blog {
+    padding-top: 25px;
+    position: relative;
+}
+
+.bg-light .single-blog{
+    padding: 40px;
+    text-align: center;
+    border-bottom: 1px solid $border-color;
+}
+
+
+.blog-content {
+    ul {
+        margin-bottom: 10px;
+    }
+    a h3 {
+        transition: all .3s ease 0s;
+        margin: 15px 0px;
+    }
+    p{
+        margin: 20px 0px;
+    }
+
+    &:hover a h3 {
+        color: $primary-color;
+    }
+
+    h6 span{
+        display: inline-block;
+        padding-left: 10px;
+
+        &:after{
+            display: none;
+        }
+    }
+
+}
+

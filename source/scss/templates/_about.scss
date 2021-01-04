@@ -1,0 +1,50 @@
+
+/*----------------------
+ FEATURE STYLE
+-----------------------*/
+.img-icon-block {
+    position: relative;
+
+    &:before {
+        position: absolute;
+        content: "";
+        top: -27px;
+        background-color: $primary-color;
+        opacity: .3;
+        width: 80px;
+        right: 70px;
+        height: 80px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    i{
+        font-size: 58px;
+        z-index: 2!important;
+        color: #333;
+        position: relative;
+    }
+}
+
+
+
+
+
+/*--------------------------
+ABOUT-2
+---------------------------*/
+#about .img-block{
+    position: relative;
+      -webkit-box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
+
+    img{
+        border: 5px solid $primary-color;
+    }
+}
+.pt-6{
+    padding-top: 4.5rem;
+}
+.img-icon i{
+    font-size: 60px;
+}

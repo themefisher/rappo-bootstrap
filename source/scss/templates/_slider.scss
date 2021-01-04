@@ -1,0 +1,74 @@
+
+/*----------------------
+ BANNER STYLE
+-----------------------*/
+
+.py-7 {
+    padding: 7.5rem 0;
+}
+
+.py-8 {
+    padding: 8.5rem 0;
+}
+
+
+.main-banner {
+    h5{
+        margin-bottom: 20px;
+    }
+    h1.display-4{
+        line-height: 65px;
+    }
+}
+
+
+.main-banner p.lead,
+.banner-content p.lead{
+    margin-bottom: 2.5rem!important;
+}
+
+
+
+/*-------------------------
+ HOME -2 
+-----------------------------*/
+#banner{
+    position: relative;
+    background: url("/images/bg/banner_bg.jpg")no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+.banner-content {
+    padding: 150px 0px;
+    padding-right: 30px;
+    p{
+        color: $border-color;
+        padding-right: 80px;
+        margin-bottom: 30px !important;
+    }
+    .display-4{
+        color: $light;
+        font-weight: 600;
+    }
+}
+
+
+#banner .overlay{
+    opacity: .7;
+}
+
+.banner-contact-form{
+    padding:45px 40px;
+    margin-top: 30px;
+
+    .form-control{
+        border-radius: 0px;
+        height: 45px;
+    }
+
+    textarea.form-control{
+        height: auto;
+    }
+}

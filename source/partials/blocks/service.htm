@@ -1,0 +1,65 @@
+<section class="section" id="services-2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6 text-center">
+                    <div class="section-heading">
+                        <!-- Heading -->
+                        <h2 class="section-title mb-2 text-white">
+                            Web Services
+                        </h2>
+
+                        <!-- Subheading -->
+                        <p class="mb-5 text-white">
+                            Rapoo can be used to create anything from a small marketing page to a sophisticated website.
+                        </p>
+                    </div>
+                </div>
+            </div> <!-- / .row -->
+
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
+                    <div class="web-service-block">
+                        <i class="ti-light-bulb"></i>
+                        <h3>Creative Design</h3>
+                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
+                    <div class="web-service-block">
+                        <i class="ti-desktop"></i>
+                        <h3>Web Development</h3>
+                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
+                    <div class="web-service-block">
+                        <i class="ti-announcement"></i>
+                        <h3>Digital Marketing</h3>
+                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 col-md-6 ">
+                    <div class="web-service-block">
+                        <i class="ti-layers-alt"></i>
+                        <h3>Graphic Design</h3>
+                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-6 ">
+                    <div class="web-service-block">
+                        <i class="ti-mobile"></i>
+                        <h3>App Development</h3>
+                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-md-6 ">
+                    <div class="web-service-block">
+                        <i class="ti-settings"></i>
+                        <h3>Wordpress Installation</h3>
+                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

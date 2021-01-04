@@ -1,0 +1,163 @@
+
+/*----------------------
+ PRoject
+-----------------------*/
+#projects-wrap {
+    position: relative;
+    background: url("../images/bg/banner_bg.jpg")no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+    p.lead{
+        color: #a9a9a9!important;
+    }
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .92);
+}
+
+.overlay.feature-overlay {
+    background-image: linear-gradient(30deg, rgba(121, 110, 255, 0.95) 0%, rgba(33, 200, 122, 0.95) 100%);
+    opacity: .9;
+}
+
+#projects {
+    margin-top: -60px;
+}
+
+.single-project img {
+    border-radius: 10px;
+}
+
+.project-content {
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+    .btn {
+        padding: .7rem 1.7rem;
+        border-radius: 25px;
+    }
+    p {
+       margin-top: 20px;
+    }
+    h4 {
+        text-transform: capitalize;
+    }
+}
+
+.project-content-block {
+    padding: 70px 40px;
+    margin-left: -120px;
+    background: #F4F7FC;
+    position: absolute;
+    bottom: -70px;
+    border: 15px solid $light;
+    -webkit-box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
+    h4 {
+        color: $primary-color;
+    }
+    p {
+        margin-top: 25px;
+    }
+
+}
+
+
+/*-------------------------
+ PORTFOLIO-2
+---------------------------*/
+
+.single-work {
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition:  all 300ms ease-in-out;
+    transition:  all 300ms ease-in-out;
+}
+
+
+
+
+.overlay-content-block{
+    position: absolute;
+    content: "";
+    bottom: 20px;
+    width: 100%;
+    left: 30px;
+    padding: 30px 20px;
+    background: $light;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition:  all 300ms ease-in-out;
+    transition:  all 300ms ease-in-out;
+    border-radius: 5px 0px 0px 5px;
+
+    a{
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        text-align: center;
+        padding-top: 12px;
+        border-radius: 100%;
+        position: absolute;
+        left: 30px;
+        top: -23px;
+        background: $primary-color;
+        color: $light;
+    }
+
+    h4{
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+}
+
+.work-block{
+    position: relative;
+    border: 5px solid $light;
+
+    img{
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    &:hover .overlay-content-block{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+
+
+
+/* ==============================
+  SINGEL PROJECTS
+=============================*/
+
+.project-details-info{
+   margin: 40px 0px;
+}
+
+.info-block-2{
+    float: left;
+    margin-right: 65px;
+    margin-bottom: 40px;
+}
+
+.project-info ul {
+    margin-top: 40px;
+    li{
+        margin-bottom: 30px;
+        padding-right: 20px;
+    }
+}
+
+.project-lg-images img {
+    width: 100%;
+}

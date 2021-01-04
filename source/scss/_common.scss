@@ -1,0 +1,193 @@
+/*--------------------
+Common Styles
+-----------------*/
+
+.section-heading {
+  margin-bottom: 80px;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.img-thumbnail {
+  padding: .25rem;
+  border: 1px solid #dee2e6;
+  background-color: #fff
+}
+
+
+.section {
+  position: relative;
+  padding: 8.125rem 0;
+}
+
+@media (min-width:768px) {
+  .section {
+    padding: 7.5rem 0
+  }
+}
+
+.section-top {
+  padding-top: 8.125rem;
+}
+
+.section-bottom {
+  padding-bottom: 8.125rem;
+}
+
+@media (min-width:768px) {
+  .section-top {
+    padding-top: 10.3125rem
+  }
+}
+
+
+.bg-grey {
+  background: #F4F7FC;
+}
+
+/*-------------------
+  BUTTONS STYLE
+----------------=----*/
+
+.btn {
+  font-size: .6875rem;
+  font-weight: 700;
+  position: relative;
+  text-transform: uppercase;
+  padding: 1rem 2.4rem;
+  border: 0.1rem solid transparent;
+  transition: all 0.2s ease-in-out;
+  letter-spacing: .5px
+}
+
+
+
+.btn-circle {
+  display: inline-flex;
+  width: 4.20313rem !important;
+  height: 4.20313rem !important;
+  padding: 0 !important;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center
+}
+
+
+.btn-outline-dark {
+  border: 1px solid#222;
+}
+
+.btn-white {
+  background: #fff;
+  color: #212529;
+}
+
+.btn-trans-white {
+  border: 1px solid#fff;
+  color: #fff;
+  &:hover {
+    color: #fff;
+    opacity: .5;
+  }
+}
+
+.btn-outline-dark:hover {
+  background: #222 !important;
+  color: #fff !important;
+}
+
+.btn.btn-link {
+  color: #212529;
+}
+
+.btn:focus {
+  box-shadow: none !important
+}
+
+.btn-circled {
+  border-radius: 75px;
+}
+
+
+.bg-primary,
+.btn-primary,
+.btn-white:hover {
+  background: #21c87a !important;
+  border-color: #21c87a !important;
+  color: #fff;
+}
+
+.bg-dark,
+.btn-primary:hover {
+  background: #232323 !important;
+  border-color: #232323 !important;
+  color: #fff;
+}
+
+.shadow-sm-2 {
+  box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
+}
+
+
+
+/*------------------------
+ BACKGROUND
+----------------------------*/
+
+
+.bg-cover {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover
+}
+
+.bg-cover,
+.bg-overlay,
+.bg-overlay:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0
+}
+
+.bg-overlay:before {
+  content: "";
+  opacity: .55;
+  background-color: #212529
+}
+
+.box-shadow {
+  box-shadow: 0 25px 100px -5px rgba(0, 0, 0, .15)
+}
+
+
+
+
+.mt50 {
+  margin-top: 80px;
+}
+
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.bg-primary {
+  background: $primary-color !important;
+}
+
+a {
+  color: $primary-color;
+  transition: 0.3s;
+}
+
+a:hover,
+a:focus {
+  outline: none;
+  text-decoration: none;
+  color: darken($primary-color, 10);
+}

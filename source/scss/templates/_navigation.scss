@@ -1,0 +1,217 @@
+/*-------------------
+   MENU
+----------------------*/
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  content: "";
+  vertical-align: middle;
+  background: no-repeat 50%;
+  background-size: 100% 100%
+}
+
+.navbar-dark .navbar-toggler {
+  color: #fff;
+  border-color: rgba(255,255,255,.1);
+  padding: 10px 12px;
+  &:focus {
+    outline: 0;
+  }
+}
+
+.main-nav {
+  margin-bottom: -45px;
+  z-index: 999;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  transition: .3s;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: $light;
+  font-weight: 700;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.rounded-radius {
+  border-radius: 5px;
+}
+
+.navbar {
+  position: relative;
+  padding: 1rem 1rem;
+
+
+  &:before {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: "";
+    transition: opacity .15s linear;
+    opacity: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    background-color: $light;
+
+  }
+}
+
+.dropdown-toggle::after {
+  margin-left: .255em;
+  vertical-align: 1px;
+  content: "\f078";
+  border: 0;
+  font-family: "Font Awesome 5 Free";
+  font-size: 12px;
+}
+
+.fixed-top {
+  position: fixed;
+  z-index: 1030;
+  right: 0;
+  left: 0;
+}
+
+
+.navbar-dark {
+  color: $light;
+}
+
+
+.navbar-light {
+  color: $black;
+
+  &:before {
+    opacity: 1;
+  }
+}
+
+
+.navbar .nav-item-divider {
+  display: none;
+
+  .nav-link {
+    opacity: .25;
+  }
+}
+
+.header-bar.fixed-header .main-navigation {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: rgba(20, 27, 40, .90);
+  border-color: transparent;
+
+}
+
+
+/*-------------------
+  DROPDOWN MENU
+----------------------*/
+.has-dropdown {
+  .dropdown-menu {
+    border: none;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.08);
+    padding: 0;
+    margin: 0;
+
+    @include desktop {
+      text-align: center;
+      float: left !important;
+      width: 100%;
+      margin: 0;
+    }
+
+    a {
+      font-weight: normal;
+      color: #808080;
+      padding: 10px 20px;
+      @include transition (all, 0.3s, ease);
+      border-bottom: 1px solid #eee;
+      border-radius: 4px;
+
+      &:focus,
+      &:hover {
+        background: $primary-color;
+        color: $light;
+      }
+    }
+  }
+}
+
+.dropleft .dropdown-menu,
+.dropright .dropdown-menu {
+  margin: 0;
+}
+
+.dropleft .dropdown-toggle::before,
+.dropright .dropdown-toggle::after {
+  font-weight: bold;
+  font-family: "Font Awesome 5 Free";
+  border: 0;
+  font-size: 10px;
+  vertical-align: 1px;
+}
+
+.dropleft .dropdown-toggle::before {
+  content: "\f053";
+  margin-right: 7px;
+}
+
+.dropright .dropdown-toggle::after {
+  content: "\f054";
+  margin-left: 7px;
+}
+
+.dropdown-item {
+  padding: .6rem 1.4rem;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.dropdown-submenu:hover>.dropdown-item,
+.dropdown-item:hover {
+  background: $primary-color;
+  color: $light !important;
+}
+
+.dropdown-item.active {
+  text-decoration: underline;
+  background-color: transparent;
+  color: inherit;
+}
+.dropdown-submenu.active>.dropdown-toggle {
+  text-decoration: underline;
+  color: inherit;
+}
+
+ul.dropdown-menu li {
+  padding-left: 0px !important;
+}
+
+@media (min-width:992px) {
+  .dropdown-menu {
+    transition: all .2s ease-in, visibility 0s linear .2s, transform .2s linear;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 200px;
+    transform: translateY(15px);
+  }
+
+  .dropdown:hover>.dropdown-menu {
+    visibility: visible;
+    transition: all .35s ease 0s;
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

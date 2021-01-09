@@ -16,6 +16,19 @@ Rapoo is set of landing and support pages aimed at helping companies promote new
 
 👉🏻[View Live Preview](https://demo.themefisher.com/rappo/)
 
+<!-- pages -->
+## Pages
+* **Homepage 1**
+* **Homepage 2**
+* **Homepage 3**
+* **Homepage 4**
+* **About**
+* **Service**
+* **Pricing**
+* **Project**
+* **Project Details**
+* **Contact**
+
 
 <!-- download -->
 ## Download And installation

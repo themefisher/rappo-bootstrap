@@ -5,21 +5,7 @@
  * GITHUB: https://github.com/themefisher/
  */
 
-/*
-THEME: Rappo - It solutions &amp; Corporate template
-VERSION: 1.0.0
-AUTHOR: Themefisher
-
-HOMEPAGE: https://themefisher.com/products/rappo-corporate-template/
-DEMO: https://demo.themefisher.com/rappo/
-GITHUB: https://github.com/themefisher/Rappo-It-Solutions-&-Corporate-Template
-
-WEBSITE: https://themefisher.com
-TWITTER: https://twitter.com/themefisher
-FACEBOOK: https://www.facebook.com/themefisher
-*/
-/*=== MEDIA QUERY ===*/
-/*-----------------------------
+/*=== MEDIA QUERY ===*/ /*-----------------------------
  CSS INDEXING
 * --------------------------------------
 * 01.GLOBAL CSS STYLE
@@ -720,7 +706,6 @@ ul.dropdown-menu li {
     min-width: 200px;
     transform: translateY(15px);
   }
-
   .dropdown:hover > .dropdown-menu {
     visibility: visible;
     transition: all 0.35s ease 0s;
@@ -1179,8 +1164,8 @@ PRICING-2
   text-transform: capitalize;
 }
 .pricing-box:hover {
-  background: #1d1c1c;
-  border-color: #1d1c1c;
+  background: rgb(29, 28, 28);
+  border-color: rgb(29, 28, 28);
 }
 .pricing-box:hover .price-features li {
   color: #eee;
@@ -1447,7 +1432,6 @@ CONTACT PAGE
   .navbar {
     text-align: center;
   }
-
   .navbar .nav-item-divider {
     display: block;
   }
@@ -1459,60 +1443,47 @@ CONTACT PAGE
   .section-title {
     font-size: 30px;
   }
-
   .background-text {
     font-size: 60px;
   }
-
   .main-banner h1.display-4 {
     line-height: 62px;
     font-size: 30px;
   }
-
   .main-nav .navbar-brand h4 {
     color: #fff;
   }
-
   .top-info-block {
     text-align: center;
     margin: 10px 0px;
     clear: both;
   }
-
   .icon-block {
     margin-right: 0px;
     margin-bottom: 10px;
   }
-
   .main-nav .navbar-brand h4 {
     color: #fff;
   }
-
   .section-title {
     font-size: 22px;
   }
-
   .feature-block {
     margin-bottom: 80px;
   }
-
   .service-img {
     margin-bottom: 0px;
   }
-
   .service-content {
     padding-bottom: 70px;
   }
-
   .process-block,
 .pricing-block {
     margin-bottom: 40px;
   }
-
   .section-heading {
     margin-bottom: 30px;
   }
-
   .project-content-block {
     text-align: center;
     margin-left: 0px;
@@ -1521,59 +1492,46 @@ CONTACT PAGE
     bottom: 0px;
     margin-top: 40px;
   }
-
   .project-content-block h4 {
     font-size: 14px;
   }
-
   .blog-box {
     margin-bottom: 50px;
   }
-
   .footer-copy {
     width: 100%;
     text-align: left;
   }
-
   .footer-copy:before {
     display: none;
   }
-
   .banner-content p {
     padding-right: 0px;
   }
-
   .pricing-box {
     margin-top: 30px;
   }
-
   .main-navigation.menu-2 {
     margin-top: 20px;
     position: absolute;
     width: 100%;
   }
-
   .top-info-block {
     margin: 0px 20px;
     text-align: left;
   }
-
   .top-info-block .icon-block {
     margin-right: 10px;
   }
-
   .img-icon-block:before {
     right: auto;
   }
-
   #map {
     margin-top: 40px;
   }
-
   .contact-info-block {
     margin-bottom: 25px;
   }
-
   #work-wrap p.lead {
     margin-bottom: 40px;
   }
@@ -1585,54 +1543,42 @@ CONTACT PAGE
   .display-4 {
     font-size: 2.5rem;
   }
-
   .top-info-block {
     margin: 10px 15px;
     clear: both;
   }
-
   .icon-block {
     margin-right: 0px;
     margin-bottom: 10px;
   }
-
   .main-navigation {
     margin-top: 20px;
   }
-
   .main-nav .navbar-brand h4 {
     color: #fff;
   }
-
   .section-title {
     font-size: 22px;
   }
-
   .feature-block {
     margin-bottom: 80px;
   }
-
   .service-img {
     margin-bottom: 0px;
   }
-
   .service-content {
     padding-bottom: 70px;
   }
-
   .process-block,
 .pricing-block {
     margin-bottom: 40px;
   }
-
   .pricing-block.zoom-in {
     transform: none;
   }
-
   .section-heading {
     margin-bottom: 30px;
   }
-
   .project-content-block {
     text-align: center;
     margin-left: 0px;
@@ -1641,67 +1587,52 @@ CONTACT PAGE
     bottom: 0px;
     margin-top: 40px;
   }
-
   .project-content-block h4 {
     font-size: 14px;
   }
-
   .testimonial-heading {
     margin-bottom: 50px;
   }
-
   .blog-box {
     margin-bottom: 50px;
   }
-
   .footer-copy {
     text-align: center;
   }
-
   .footer-copy:before {
     display: none;
   }
-
   .banner-content p {
     padding-right: 0px;
   }
-
   .pricing-box {
     margin-top: 30px;
   }
-
   .main-navigation.menu-2 {
     margin-top: 20px;
     position: absolute;
     width: 100%;
   }
-
   .img-icon-block:before {
     right: auto;
   }
-
   .page-banner-area {
     padding: 160px 0px 110px;
   }
-
   .info-block-2 {
     margin-right: 35px;
     margin-bottom: 40px;
   }
-
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
     background: #21c87a;
   }
-
   #map {
     margin-top: 40px;
   }
-
   .contact-info-block {
     margin-bottom: 25px;
   }
-
   #work-wrap p.lead {
     margin-bottom: 40px;
   }
@@ -1711,76 +1642,59 @@ CONTACT PAGE
   .main-navigation {
     margin-top: 40px;
   }
-
   a.navbar-brand h4 {
     color: #fff;
   }
-
   .section-title {
     top: 0;
   }
-
   .background-text {
     display: none;
   }
-
   .display-4 {
     font-size: 2.5rem;
   }
-
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
     background: #21c87a;
   }
-
   .top-info-block {
     text-align: center;
     margin: 10px 0px;
     clear: both;
   }
-
   .icon-block {
     margin-right: 0px;
     margin-bottom: 10px;
   }
-
   .main-navigation {
     margin-top: 20px;
   }
-
   .main-nav .navbar-brand h4 {
     color: #fff;
   }
-
   .section-title {
     font-size: 22px;
   }
-
   .feature-block {
     margin-bottom: 80px;
   }
-
   .service-img {
     margin-bottom: 0px;
   }
-
   .service-content {
     padding-bottom: 70px;
   }
-
   .process-block,
 .pricing-block {
     margin-bottom: 40px;
   }
-
   .pricing-block.zoom-in {
     transform: none;
   }
-
   .section-heading {
     margin-bottom: 30px;
   }
-
   .project-content-block {
     text-align: center;
     margin-left: 0px;
@@ -1788,107 +1702,83 @@ CONTACT PAGE
     position: relative;
     bottom: 0px;
   }
-
   .project-content-block h4 {
     font-size: 14px;
   }
-
   .testimonial-heading {
     margin-bottom: 50px;
   }
-
   .blog-box {
     margin-bottom: 50px;
   }
-
   .footer-copy {
     text-align: center;
   }
-
   .footer-copy:before {
     display: none;
   }
-
   .project-content {
     text-align: center;
     padding: 50px 0px;
     position: relative;
   }
-
   .about-block {
     margin-top: 30px;
   }
-
   .banner-content p {
     padding-right: 0px;
   }
-
   .pricing-box {
     margin-top: 30px;
   }
-
   .main-navigation.menu-2 {
     margin-top: 20px;
     position: absolute;
     width: 100%;
   }
-
   .banner-content p {
     padding-right: 0px;
   }
-
   .pricing-box {
     margin-top: 30px;
   }
-
   .main-navigation.menu-2 {
     margin-top: 20px;
     position: absolute;
     width: 100%;
   }
-
   .banner-contact-form {
     padding: 45px 15px;
   }
-
   .web-service-block {
     margin-bottom: 30px;
   }
-
   .img-icon-block:before {
     right: auto;
   }
-
   #feature {
     padding-bottom: 0px;
   }
-
   .page-banner-area {
     padding: 160px 0px 110px;
   }
-
   #pricing-2 {
     padding-left: 20px;
     padding-right: 20px;
   }
-
   .info-block-2 {
     margin-right: 35px;
     margin-bottom: 40px;
   }
-
   #map {
     margin-top: 40px;
   }
-
   .contact-info-block {
     margin-bottom: 25px;
   }
-
   #work-wrap p.lead {
     margin-bottom: 40px;
   }
-
   .navbar-toggler:focus {
     outline: none;
   }
@@ -1898,68 +1788,53 @@ CONTACT PAGE
   .bg-light {
     background: transparent !important;
   }
-
   .main-navigation {
     margin-top: 40px;
   }
-
   a.navbar-brand h4 {
     color: #fff;
   }
-
   .top-info-block {
     text-align: center;
     margin: 10px 0px;
     clear: both;
   }
-
   .icon-block {
     margin-right: 0px;
     margin-bottom: 10px;
   }
-
   .main-navigation {
     margin-top: 20px;
   }
-
   .main-nav .navbar-brand h4 {
     color: #fff;
     margin-top: 10px;
   }
-
   .section-title {
     font-size: 22px;
   }
-
   .banner-contact-form {
     padding: 45px 15px !important;
   }
-
   .feature-block {
     margin-bottom: 80px;
   }
-
   .service-img {
     margin-bottom: 0px;
   }
-
   .service-content {
     padding-bottom: 70px;
   }
-
   .process-block,
 .pricing-block {
     margin-bottom: 40px;
   }
-
   .pricing-block.zoom-in {
     transform: none;
   }
-
   .section-heading {
     margin-bottom: 30px;
   }
-
   .project-content-block {
     text-align: center;
     margin-left: 0px;
@@ -1968,113 +1843,87 @@ CONTACT PAGE
     bottom: 0px;
     margin-top: 30px;
   }
-
   .project-content-block h4 {
     font-size: 14px;
   }
-
   .testimonial-heading {
     margin-bottom: 50px;
   }
-
   .blog-box {
     margin-bottom: 50px;
   }
-
   .footer-copy {
     text-align: center;
   }
-
   .footer-copy:before {
     display: none;
   }
-
   .about-block {
     margin-top: 30px;
   }
-
   .banner-content .display-4 {
     font-size: 28px;
     line-height: 38px;
   }
-
   .banner-content p {
     padding-right: 0px;
   }
-
   .pricing-box {
     margin-top: 30px;
   }
-
   .main-navigation.menu-2 {
     margin-top: 20px;
     position: absolute;
     width: 100%;
   }
-
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
     background: #21c87a;
   }
-
   .web-service-block {
     margin-bottom: 30px;
   }
-
   .section {
     padding: 60px 0px;
   }
-
   .section-bottom {
     padding-bottom: 60px;
   }
-
   .section-top {
     padding-top: 60px;
   }
-
   .main-banner h1.display-4 {
     line-height: 42px;
     font-size: 30px;
   }
-
   #projects {
     margin-top: 60px;
   }
-
   .img-icon-block:before {
     right: auto;
   }
-
   #feature {
     padding-bottom: 0px;
   }
-
   .page-banner-area {
     padding: 160px 0px 110px;
   }
-
   .display-4 {
     font-size: 30px;
   }
-
   .info-block-2 {
     margin-right: 35px;
     margin-bottom: 40px;
   }
-
   #map {
     margin-top: 40px;
   }
-
   .contact-info-block {
     margin-bottom: 25px;
   }
-
   #work-wrap p.lead {
     margin-bottom: 40px;
   }
-
   .navbar-toggler:focus {
     outline: none;
   }
